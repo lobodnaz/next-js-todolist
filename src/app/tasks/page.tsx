@@ -25,15 +25,12 @@ export default function Tasks() {
   const [values, setValues] = useState<TaskItem>({
     title: "",
     description: "",
-  } as TaskItem); //можливо краще переробити, лскільки при подільшому розширенні сожливі помилки, через те, що ТС примусово думає, що об'єкт правильний
-  //Property for pagination and sort
+  } as TaskItem);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [pageSize, setPageSize] = useState<number>(5);
   const [totalItems, setTotalItems] = useState<number>(0);
-  //Property for sort
   const [sortBy, setSortBy] = useState<string>("date");
   const [sortOrder, setSortOrder] = useState<string>("desc");
-  //Property for pagination and search
   const [searchedText, setSearchedText] = useState<string>("");
   const [debounceSearchedText] = useDebounce(searchedText, 1000);
 
