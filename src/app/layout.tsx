@@ -49,7 +49,7 @@ export default function RootLayout({
           <Layout>
             <Header className="header">ToDoList APP</Header>
             <Content className="content">{children}</Content>
-            <Footer className="footer">© 2025 C.C.</Footer>
+            <Footer className="footer">© 2025 lobodnaz</Footer>
           </Layout>
         </Layout>
       </body>
