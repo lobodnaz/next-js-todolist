@@ -176,7 +176,7 @@ export default function Tasks() {
   };
 
   return (
-    <div>
+    <>
       {contextHolder}
       <Button
         onClick={openModal}
@@ -208,6 +208,6 @@ export default function Tasks() {
         onSearchChange={handleSearchChange}
         searchText={debounceSearchedText}
       />
-    </div>
+    </>
   );
 }

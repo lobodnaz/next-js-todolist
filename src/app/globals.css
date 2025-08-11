@@ -24,7 +24,6 @@ html, body, #__next {
   padding: 0 20px;
   font-size: 36px;
   font-weight: 600;
-  /* box-shadow: 0 2px 8px rgba(0,0,0,0.45); */
 }
 
 .footer {
@@ -86,6 +85,64 @@ html, body, #__next {
 
 .ant-spin-dot-item {
   color: #b000d3 !important;
+}
+
+/* HOME PAGE */
+section {
+  margin-bottom: 8px !important;
+  padding: 16px !important;
+  background-color: #1f1f1f !important;
+  border-radius: 6px !important;
+  color: #fff !important;
+}
+
+section h2 {
+  color: #f0f0f0 !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  margin-bottom: 12px !important;
+}
+
+section > div.ant-typography {
+  color: #999 !important;
+  font-size: 16px !important;
+}
+
+.ant-card {
+  background-color: #1f1f1f !important;
+  border: 2px solid #121212;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.ant-card-head {
+  border-bottom: 2px solid #121212 !important;
+}
+
+.ant-card-head-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #f0f0f0;
+}
+
+.ant-card-body {
+  padding: 16px !important;
+}
+
+.ant-card-body > .ant-typography{
+  color: #999 !important;
+  font-size: 16px !important;
+}
+
+.ant-card-body > a {
+  color: #c300e6;
+  text-decoration: underline;
+}
+
+section a {
+  color: #c300e6;
+  text-decoration: underline;
+
 }
 
 /* ADD NEW TASK BUTTON */
